@@ -1,0 +1,24 @@
+.containerH {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, red, yellow);
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+input {
+    border-radius: 45px;
+    height: 20px;
+    width: 300px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

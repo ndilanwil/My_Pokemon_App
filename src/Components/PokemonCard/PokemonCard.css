@@ -1,0 +1,12 @@
+.containerPC {
+    height: 2px;
+    border: 1px solid black;
+}
+
+.image img {
+    height: 100px;
+}
+
+.image {
+    /* background: grey; */
+}
