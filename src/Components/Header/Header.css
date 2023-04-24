@@ -14,6 +14,7 @@ input {
     border-radius: 45px;
     height: 20px;
     width: 300px;
+    border: 1px solid black;
 }
 
 .right {
@@ -22,3 +23,18 @@ input {
     align-items: center;
 }
 
+@media screen and (max-width: 800px) {
+    .containerH {
+        display: grid;
+        align-items: center;
+        background: linear-gradient(90deg, red, yellow);
+    }
+
+    h2 {
+        visibility: hidden;
+    }
+
+    button {
+        align-items: center;
+    }
+}

@@ -12,7 +12,7 @@ function Body() {
         <div class="body">
             <div class="bopoke">
                 {data.map((poke)=>{
-                    return <PokemonCard name={poke.name}/> 
+                        return <PokemonCard name={poke.name} image={poke.sprites.other['official-artwork'].front_default} type={poke.types}/> 
                 })}
             </div>
         </div>

@@ -9,7 +9,7 @@ function Header() {
                 <img src={pokedex} alt="pokedex from Dilan" />
             </div>
             <div class="right">
-                <h2>Find a pokemon </h2>&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="search" />
+                <h2>Find a pokemon &nbsp;&nbsp;&nbsp;&nbsp;</h2> <input type="text" id="search" />
                 <button type="submit"><img src={pokeball} alt="" style={{width:"30px"}}></img></button>
             </div>
         </div>
