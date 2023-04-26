@@ -13,7 +13,7 @@ button {
 input {
     border-radius: 45px;
     height: 20px;
-    width: 300px;
+    width: 100%;
     border: 1px solid black;
 }
 
@@ -28,6 +28,10 @@ input {
         display: grid;
         align-items: center;
         background: linear-gradient(90deg, red, yellow);
+    }
+
+    .right{
+        visibility: hidden;
     }
 
     h2 {

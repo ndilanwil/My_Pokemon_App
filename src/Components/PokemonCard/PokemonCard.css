@@ -4,7 +4,7 @@
 }*/
 
 .containerPC {
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 30px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .type p {
-    border: 1px solid black;
+    border: 0.5px solid black;
     border-radius: 10px;
     width: 70px;
 }

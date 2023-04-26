@@ -2,13 +2,13 @@ import './Header.css'
 import pokedex from '../../images/pokedex.png'
 import pokeball from '../../images/pokeball.png'
 
-function Header() {
+const Header = () => {
     return (
-        <div class="containerH">
-            <div class="left">
+        <div className="containerH">
+            <div className="left">
                 <img src={pokedex} alt="pokedex from Dilan" />
             </div>
-            <div class="right">
+            <div className="right">
                 <h2>Find a pokemon &nbsp;&nbsp;&nbsp;&nbsp;</h2> <input type="text" id="search" />
                 <button type="submit"><img src={pokeball} alt="" style={{width:"30px"}}></img></button>
             </div>

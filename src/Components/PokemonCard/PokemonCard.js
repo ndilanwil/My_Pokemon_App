@@ -1,18 +1,17 @@
 import './PokemonCard.css'
-import pokeball from '../../images/pokeball.png'
-import Pokemon from "../fetchOnePokemon.js"
-
+import changeColor from '../changeColor'
 
 const PokemonCard = (props) => {
     let types = props.type
+    let color = changeColor(types[0].type.name);
     return (
-        <div class="containerPC">
-            <div class="image">
+        <div className="containerPC" style={{background: color}}>
+            <div className="image">
                 <img src={props.image} alt="test" />
             </div>
-            <div class="info">
+            <div className="info">
                 <p>{props.name}</p>
-                <div class="type">
+                <div className="type">
                 {
                     types.map((type)=>{
                         return <p>{type.type.name}</p>
