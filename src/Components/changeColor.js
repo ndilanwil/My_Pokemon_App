@@ -52,6 +52,9 @@ function changeColor(type){
     else if(type==="fairy"){
         color = "#ffffb3"
     }
+    else if(type==="ground"){
+        color = "#71250b" 
+    }
     return color
 }
 

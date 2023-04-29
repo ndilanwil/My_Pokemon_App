@@ -6,6 +6,7 @@
 .containerPC {
     border: 1px solid black;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .image img {
