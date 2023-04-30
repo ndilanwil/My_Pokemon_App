@@ -4,7 +4,7 @@ import changeColor from '../changeColor'
 import PokemonDetail from '../PokemonDetail/PokemonDetail';
 
 const PokemonCard = (props) => {
-    const [showOverlay, setShowOverlay] = useState(true);
+    const [showOverlay, setShowOverlay] = useState(false);
     const toggleOverlay = () => {
         setShowOverlay(!showOverlay);
     };
