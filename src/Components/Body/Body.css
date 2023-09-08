@@ -1,0 +1,28 @@
+
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.bopoke {
+    text-align: center;
+    height : 70vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    right: 30px;
+    width: 95%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+@media screen and (max-width: 800px) {
+    .body{
+        display: flex;
+        justify-content: center;
+    }
+    .bopoke {
+        text-align: center;
+        height : 70vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+  }

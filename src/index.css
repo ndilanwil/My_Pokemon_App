@@ -1,0 +1,28 @@
+@media screen and (max-width: 800px) {
+  .bopoke {
+      text-align: center;
+      height : 70vh;
+      display: grid;
+      grid-template-columns: 1fr;
+      }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://leclaireur.fnac.com/wp-content/uploads/2022/12/pokemon-header-1256x826.jpg);
+  /* background-repeat: repeat-y; */
+  /* position: fixed; */
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
